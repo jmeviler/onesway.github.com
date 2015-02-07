@@ -16,7 +16,6 @@ defaults:
 
 description: 
 baseurl: /
-url: http://blog.onesway.xyz
 author:
   name: Onesway
   email: admin@onesway.xyz
