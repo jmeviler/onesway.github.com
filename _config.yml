@@ -29,5 +29,6 @@ author:
 rss_path: feed.xml
 categories_path: categories.html
 tags_path: tags.html
+about_path: about.html
 logo_file: cloudlogo.png
 BASE_PATH:
