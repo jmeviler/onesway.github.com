@@ -15,7 +15,6 @@ defaults:
       title: OnesWay's Blog
 
 description: 
-gavatar: logo.png
 baseurl: /
 author:
   name: Onesway
@@ -30,5 +29,6 @@ author:
 rss_path: feed.xml
 categories_path: categories.html
 tags_path: tags.html
-
+about_path: about.md
+logo_file: cloudlogo.png
 BASE_PATH:
