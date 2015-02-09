@@ -15,6 +15,7 @@ defaults:
       title: OnesWay's Blog
 
 description: 
+gavatar: /assets/ico/logo.png
 baseurl: /
 author:
   name: Onesway
