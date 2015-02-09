@@ -15,12 +15,12 @@ defaults:
       title: OnesWay's Blog
 
 description: 
-gavatar: /assets/ico/logo.png
+gavatar: logo.png
 baseurl: /
 author:
   name: Onesway
   email: admin@onesway.xyz
-  github: jmevlier
+  github: jmeviler
   twitter: 
   pinterest: 
   linkedin: 
