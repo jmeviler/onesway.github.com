@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Hello World
-categories: [hello world]
-tags: [hello world]
+categories: [demo]
+tags: [demo]
 description: Hello World.
 ---
 
