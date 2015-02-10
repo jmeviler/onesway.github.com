@@ -26,7 +26,7 @@ author:
   bio: 一些人,一些事.
   email_md5: 726351295ec82e145928582f595aa3aa
 
-rss_path: about.xml
+rss_path: about.html
 categories_path: categories.html
 tags_path: tags.html
 about_path: about.html
