@@ -33,6 +33,7 @@ description: How to use Git
 此时初始化完成  
 
 3.**基本使用:**     
+
     --create branch  
         $git branch your_branch_name  
         $git checkout -b your_branch_name  
@@ -51,8 +52,9 @@ description: How to use Git
     --push new cogit push origin
         $git push origin your_origin_name
 
-4.**常用命令:**
-在Git中获取帮助,可以使用man git-***的格式. 
+4.**常用命令:**  
+在Git中获取帮助,可以使用man git-***的格式.  
+
     $git-add : Add file contents to the index.  
     $git-branch : List, create, or delete branches.  
     $git-checkout: Checkout a branch or paths to the working tree.  
@@ -70,3 +72,5 @@ description: How to use Git
     $git-reset: Reset current HEAD to the specified state.  
     $git-stash: Stash the changes in a dirty working directory away.
     $git-status: Show the working tree status.
+
+    
