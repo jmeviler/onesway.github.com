@@ -6,14 +6,14 @@ permalink: about.html
 
 About:
 <p>
-ÄúºÃ£¬ÕâÀïÊÇÎÒµÄ²©¿Í£¬<a title="OnesWay's Blog" href="http://blog.onesway.xyz">OnesWay's Blog</a>.
-<blockquote>ÎÒÊÇ¸ö±ÏÒµÓÚ¶şÁ÷´óÑ§µÄ³ÌĞòÔ±£¬Á¢Ö¾ÓÚÎ¬»¤ÊÀ½çºÍÆ½¡£ÕâÊÇÎÒµÄ²©¿Í¡£ÎÒ×¡ÔÚÃÀÀöµÄÇàµº£¬ÓĞÅèÀ´×Ô²ÜÖİµÄÄµµ¤¡£</blockquote>
-<span style="line-height: 1.5;">µã»÷<a href="http://onesway.tk/">ÕâÀï</a>·µ»ØÊ×Ò³¡£</span>
+Ã„ÃºÂºÃƒÂ£Â¬Ã•Ã¢Ã€Ã¯ÃŠÃ‡ÃÃ’ÂµÃ„Â²Â©Â¿ÃÂ£Â¬<a title="OnesWay's Blog" href="http://blog.onesway.xyz">OnesWay's Blog</a>.
+<blockquote>æˆ‘æ˜¯ä¸ªæ¯•ä¸šäºäºŒæµå¤§å­¦çš„ç¨‹åºå‘˜ï¼Œç«‹å¿—äºç»´æŠ¤ä¸–ç•Œå’Œå¹³ã€‚è¿™æ˜¯æˆ‘çš„åšå®¢ã€‚æˆ‘ä½åœ¨ç¾ä¸½çš„é’å²›ï¼Œæœ‰ç›†æ¥è‡ªæ›¹å·çš„ç‰¡ä¸¹ã€‚</blockquote>
+<span style="line-height: 1.5;">ç‚¹å‡»<a href="http://blog.onesway.xyz/">è¿™é‡Œ</a>è¿”å›é¦–é¡µ.</span>
 </p>
-Contect£º
+Contectï¼š<br/>
 &nbsp;&nbsp;&nbsp;Name:Ben<br/>
-&nbsp;&nbsp;&nbsp;Email£ºadmin@onesway.xyz<br/>
+&nbsp;&nbsp;&nbsp;Email:admin@onesway.xyz<br/>
 &nbsp;&nbsp;&nbsp;Gmail:www.onesway@gmail.com<br/>
-&nbsp;&nbsp;&nbsp;WeChat£ºoneseviler<br/>
+&nbsp;&nbsp;&nbsp;WeChat:oneseviler<br/>
 
-Copyright &copy; 2015 by OnesWay. All Rights Reserved.(×ªÔØÇë×¢Ã÷³ö´¦)
+Copyright &copy; 2015 by OnesWay. All Rights Reserved.(Ã—ÂªÃ”Ã˜Ã‡Ã«Ã—Â¢ÃƒÃ·Â³Ã¶Â´Â¦)
