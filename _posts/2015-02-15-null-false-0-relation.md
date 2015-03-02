@@ -52,6 +52,6 @@ JSON 是Javascript对象表示法(Javascript Object Notation)的简称,JSON协�
 在JSON协议中,最基本的数据结构有两种:  
     1.数组结构["james","iris"]  
     2.对象结构:{"id":1,"name":"james"}  
-    json_decode — 对 JSON 格式的字符串进行编码 
+    json_decode — 对 JSON 格式的字符串进行编码  
     json_encode - 对变量进行JSON编码
 
