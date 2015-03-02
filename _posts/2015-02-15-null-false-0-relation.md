@@ -47,10 +47,11 @@ description: Null和False,0,空字符串的关系
     __invoke():当尝试以调用一个函数的方式调用一个对象时,__invoke()方法会被自动调用  
     __autoload):区别于以上所有方法,是一个全局方法  
 
-
+-------
 JSON 是Javascript对象表示法(Javascript Object Notation)的简称,JSON协议源自Javascript脚本语言的对象的持久化表示方法.
-在JSON协议中,最基本的数据结构有两种:1.数组结构["james","iris"]
-2.对象结构:{"id":1,"name":"james"}
-json_decode — 对 JSON 格式的字符串进行编码 
-json_encode - 对变量进行JSON编码
+在JSON协议中,最基本的数据结构有两种:  
+    1.数组结构["james","iris"]  
+    2.对象结构:{"id":1,"name":"james"}  
+    json_decode — 对 JSON 格式的字符串进行编码 
+    json_encode - 对变量进行JSON编码
 
