@@ -6,13 +6,13 @@ tags: [Javascript]
 description: JS字符串截取,获取某一元素下标签个数,删除指定的标签
 ---
 
-JS字符串截取:
-    var str = "abc_123";
-    若截取字符串"123",则: str = str.substring(str.length-3,str.length);
-    若截取字符串"abc",则: str = str.substring(0,str.length-4);
+JS字符串截取:  
+    var str = "abc_123";  
+    若截取字符串"123",则: str = str.substring(str.length-3,str.length);  
+    若截取字符串"abc",则: str = str.substring(0,str.length-4);  
 
 ------
-获取某一元素下标签个数:
+获取某一元素下标签个数:  
 
     <div id='test'>
         <li>test001</li>
@@ -21,11 +21,11 @@ JS字符串截取:
         <li>test004</li>
     </div>
 
-JS Code:
-    var count = document.getElementById("test").getElementByTagName("li").length;
+    JS Code:  
+        var count = document.getElementById("test").getElementByTagName("li").length;
 
 -------
-删除指定的标签:
+删除指定的标签:  
 
     <div id='test'>
         <li>test001</li>
