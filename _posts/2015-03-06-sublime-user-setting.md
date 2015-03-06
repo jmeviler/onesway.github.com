@@ -6,7 +6,7 @@ tags: [Sublime]
 description: Sublime Text3 User Setting
 ---
 
-简单常用的Sublime Text的配置
+**简单常用的Sublime Text的配置**
 
     {
         "draw_white_space": "all",//空格一直显示
@@ -29,8 +29,9 @@ description: Sublime Text3 User Setting
         "trim_trailing_white_space_on_save": true //保存文件时会删除每行结束后多余的空格
     }
 
+-------
+**常用快捷键**
 
-常用快捷键
     Ctrl+D 选词
     Ctrl+P 查找当前项目中的文件和快速搜索
     Ctrl+R 快速列出/跳转到某个函数(当前文件)
@@ -43,3 +44,4 @@ description: Sublime Text3 User Setting
     Ctrl+/ 注释当前行
     Ctrl+Shift+↑可以移动此行代码，与上行互换
     Ctrl+Shift+↓可以移动此行代码，与下行互换
+
