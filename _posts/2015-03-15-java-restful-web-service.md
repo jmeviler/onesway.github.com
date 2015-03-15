@@ -13,7 +13,7 @@ description: Java Jersey's use.
 **配置**
 
 单纯的Jersey使用，需要导入的以下的包（版本根据自己实际项目定）
-<img src="/img/jersey.png" width="306" height="180">
+<img src="/img/jersey.png" width="306" height="180">   
 1)写一个资源测试类类（在JAVA Restful中称为资源）
 
     @Path("/test")
@@ -45,6 +45,7 @@ description: Java Jersey's use.
             register(JacksonJsonProvider.class);
         }
     }
+
 需要在web.xml的配置有：
 
     <servlet>
@@ -64,8 +65,10 @@ description: Java Jersey's use.
     <url-pattern>/services/*</url-pattern>
     </servlet-mapping>
 
-测试（此处使用Postman工具,关于Postman使用请参考<a href="http://blog.onesway.xyz/tools/2015/03/10/postman-api-tool.html">《Postman--API测试工具》</a>）
-<img src="/img/test-result.png" width="719" height="238">
+测试（此处使用Postman工具,关于Postman使用请参考<a href="http://blog.onesway.xyz/tools/2015/03/10/postman-api-tool.html">《Postman--API测试工具》</a>）   
+<img src="/img/test-result.png" width="719" height="238">   
+
+
 此处仅介绍其基本使用和配置。
 
 
