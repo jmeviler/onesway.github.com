@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Sublime Text3 User Setting
-categories: [tools]
-tags: [tools]
+categories: [tools,Sublime]
+tags: [tools,Sublime]
 description: Sublime Text3 User Setting
 ---
 
