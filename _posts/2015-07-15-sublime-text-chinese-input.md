@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Ubuntu14.04 Sublime Text3 中文输入
-categories: [tool,Sublime]
-tags: [tool,Sublime]
+categories: [tools,Sublime]
+tags: [tools,Sublime]
 description: Sublime Text3 Chinese Input whith sougo.
 ---
 
