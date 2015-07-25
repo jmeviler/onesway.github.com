@@ -7,7 +7,7 @@ description: Sublime Text3 Chinese Input whith sougo.
 ---
 
 **1)**
-    下载<a href="/img/sublime_text_chinese-input-method.tar.gz">压缩包</a>,此压缩包是在Ubuntu14.04下编译的.如其他版本请重新编译.
+    下载<a href="/files/sublime_text_chinese-input-method.tar.gz">压缩包</a>,此压缩包是在Ubuntu14.04下编译的.如其他版本请重新编译.
 
 -----
 **2)**
