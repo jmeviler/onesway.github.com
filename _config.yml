@@ -14,7 +14,7 @@ defaults:
     values:
       title: OnesWay's Blog
 
-description:OnesWay's Blog
+description: OnesWay's Blog
 baseurl: /
 author:
   name: Ben Li
