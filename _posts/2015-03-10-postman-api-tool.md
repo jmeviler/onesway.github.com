@@ -26,4 +26,5 @@ Postman 是一个功能强大的网页调试与发送网页HTTP请求的Chrome�
 
 ------
 离线包<a href="/files/Postman-REST-Client_v0.8.4.14.rar">下载</a>
+
 PS:如果此版本不适合你，可以直接下载Postman的Google Chrome插件。将 `*.crx` 后缀改成`*.rar` 解压后即可，此处需要注意的是，将`_metadata` 修改成`metadata`。
