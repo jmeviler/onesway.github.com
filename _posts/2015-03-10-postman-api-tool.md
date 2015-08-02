@@ -23,3 +23,7 @@ Postman 是一个功能强大的网页调试与发送网页HTTP请求的Chrome�
     3.返回结果:Postman返回结果的时候,会自动格式化,将JSON,XML,HTML整理成易阅读的格式,并且有颜色的区分.
 
 ------
+
+------
+离线包<a href="/files/Postman-REST-Client_v0.8.4.14.rar">下载</a>
+PS:如果此版本不适合你，可以直接下载Postman的Google Chrome插件。将 `*.crx` 后缀改成`*.rar` 解压后即可，此处需要注意的是，将`_metadata` 修改成`metadata`。
