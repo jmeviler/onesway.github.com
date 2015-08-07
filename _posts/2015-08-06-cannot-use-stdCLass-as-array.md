@@ -6,7 +6,7 @@ tags: [PHP]
 description: Cannot use object of type stdClass as Array.
 ---
 
-php再调用`json_decode`从字符串对象生成json对象时，如果使用`[]`操作符取数据，会得到下面的错误
+php在调用`json_decode`从字符串对象生成json对象时，如果使用`[]`操作符取数据，会得到下面的错误
 
 **错误:**
 `Cannot use object of type stdClass as array.`
@@ -22,5 +22,19 @@ php再调用`json_decode`从字符串对象生成json对象时，如果使用`[]
     2、json_decode($res) 返回的是一个对象， 不可以使用 $res['key'] 进行访问，换成 $res->key 就可以了。
 
 >参考手册：
->json_decode:
->Return Values：Returns an object or if the optional assoc parameter is TRUE,an associative array is instead returned.
+>说明
+
+> mixed json_decode ( string $json [, bool $assoc ] )
+> 接受一个 JSON 格式的字符串并且把它转换为 PHP 变量
+
+>参数
+
+> json
+> 待解码的 json string 格式的字符串。
+
+> assoc
+> 当该参数为 TRUE 时，将返回 array 而非 object 。
+
+>返回值
+> Returns an object or if the optional assoc parameter is TRUE, an associative array is instead returned.
+
