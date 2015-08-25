@@ -41,14 +41,15 @@ JS代码：
         }
     </script>
 
-`trim(search.length) == 0` 用于判断用户输入是否为空。
+>`trim(search.length) == 0` 用于判断用户输入是否为空。
 
->$.post("search.php", {queryString: ""+search+""}, function(data){
->    if(data.length >0) {
->        $('#association').show();
->        $('#associationsList').html(data);
->    }
->});
+    $.post("search.php", {queryString: ""+search+""}, function(data){
+        if(data.length >0) {
+            $('#association').show();
+            $('#associationsList').html(data);
+        }
+    });
+
 >`post`请求，将`search`的内容以post的方式发送到`search.php`这个页面中，如果返回的数据不为`null`的话，将数据写入到页面(即上面html两个`div`中)。
 
 PHP代码(此处只显示部分代码)：
