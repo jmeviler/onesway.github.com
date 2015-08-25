@@ -54,14 +54,14 @@ JS代码：
 
 PHP代码(此处只显示部分代码)：
 
-        $query = $db->query("SELECT your_column FROM your_db_table WHERE your_column LIKE '$search%' LIMIT 10");
-        if($query) {
-            while ($result = $query ->fetch_object()) {
-                        echo '<li onClick="fill(\''.$result->value.'\');">'.$result->value.'</li>';
-                    }
-        } else {
-            echo '暂无数据.';
+    $query = $db->query("SELECT field FROM table WHERE search_field LIKE '$search%' LIMIT 10");
+    if($query) {
+        while ($result = $query ->fetch_object()) {
+            echo '<li onClick="fill(\''.$result->value.'\');">'.$result->value.'</li>';
         }
+    } else {
+        echo '暂无数据.';
+    }
 
 >链接数据库后，根据html页传输过的search内容进行查询。将其循环输出。而后通过js将其写在html页面上。
 >进而实现了联想搜索。
