@@ -35,10 +35,10 @@ Ps： 方法一种，可能存在一个问题：
 
     /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
-根据这个路径来替换方法1种路径
+根据这个路径来替换方法1中路径
 
 例如：
 
     sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/bin/subl
 
-此时就可以解决方法一种的问题。
+此时就可以解决方法一中的问题。
