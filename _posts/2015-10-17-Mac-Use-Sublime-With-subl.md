@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Mac 命令行下使用subl
+title: Mac OS X 命令行下使用subl
 categories: [Sublime]
 tags: [Sublime]
-description: Use Sublime Text3 with subl in Mac.
+description: Use Sublime Text3 with subl in OS X.
 ---
 
 习惯了在Linux系统上使用Sublime Text这个编辑器，现在Mac上安装后，在命令行下运行subl竟然发现没有办法使用。

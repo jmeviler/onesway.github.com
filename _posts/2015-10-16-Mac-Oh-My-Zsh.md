@@ -1,12 +1,13 @@
 ---
 layout: post
-title: Mac 下配置Oh My Zsh
+title: Mac OS X 下配置Oh My Zsh
 categories: [Tools]
 tags: [Tools]
-description: The setting of Oh My Zsh for Mac.
+description: The setting of Oh My Zsh for OS X.
 ---
 
-Linux系统下的`shell`喜欢使用`zsh`，再 Mac 的配置相对于 Linux 下简单一点。
+在以前介绍过Linux下安装Oh-My-Zsh的安装(<a href="http://blog.onesway.xyz/tools/2015/04/10/Oh-my-zsh.html">传送门</a>)。
+因为在Linux系统下的`shell`喜欢使用`oh my zsh`，再 Mac 的配置相对于 Linux 下简单一点。
 因为在Mac下已经预装了Zsh。
 
     $ cat /etc/shells
