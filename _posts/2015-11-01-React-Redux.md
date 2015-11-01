@@ -6,7 +6,7 @@ tags: [Javascript]
 description: React and Redux.
 ---
 
-本文主要整理一下学习React和Redux过程中感觉不错的资料。
+本文主要整理一下学习`React`和`Redux`过程中感觉不错的资料。
 
 **React**
 
@@ -14,8 +14,7 @@ description: React and Redux.
 
 - 官网：
 
-    https://facebook.github.io/react/docs/getting-started.html
-    英语不好的，可以去极客学院找到中文翻译，不过还是建议看官方的文档。
+    <a href="https://facebook.github.io/react/docs/getting-started.html">官网链接</a>英语不好的，可以去极客学院找到中文翻译，不过还是建议看官方的文档。
 
 - 入门
 
@@ -29,10 +28,15 @@ description: React and Redux.
 
 Redux官方文档<a href="http://rackt.org/redux/">传送门</a>，还有中文版，请自行查找。
 
-`Redux` 这里有几篇讲的不错的文章，大部分是托管在Github上面。
+`Redux` 这里有两篇讲的不错的文章，大部分是托管在Github上面。
 
 <a href="https://github.com/matthew-sun/blog/issues/18">使用Redux管理你的React应用</a>
 
 <a href="https://github.com/Lucifier129/Lucifier129.github.io/issues/9">深入到源码：解读 redux 的设计思路与用法</a>
 
-第一篇跟随一个`demo`根据起博文可以理解到使用Redux管理React的知识，第二篇是深入到源码，Redux为什么这样用。
+第一篇跟随一个`demo`根据其博文可以理解到使用Redux管理React的知识，第二篇是深入到源码，Redux为什么这样用。
+
+
+    PS：有必要说一句，`React`和`Redux`采用了`ES6`中的部分语法，有兴趣的可以学习下<a href="http://es6.ruanyifeng.com">ES6</a>.
+
+
