@@ -37,6 +37,6 @@ Redux官方文档<a href="http://rackt.org/redux/">传送门</a>，还有中文�
 第一篇跟随一个`demo`根据其博文可以理解到使用Redux管理React的知识，第二篇是深入到源码，Redux为什么这样用。
 
 
-    PS：有必要说一句，`React`和`Redux`采用了`ES6`中的部分语法，有兴趣的可以学习下<a href="http://es6.ruanyifeng.com">ES6</a>.
+PS：有必要说一句，`React`和`Redux`采用了`ES6`中的部分语法，有兴趣的可以学习下 <a href="http://es6.ruanyifeng.com">ES6</a>
 
 
