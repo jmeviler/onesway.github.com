@@ -24,6 +24,8 @@ description: React and Redux.
 
     `React`使用了`JSX`。其在官方文档中有介绍。
 
+    ps: 这里要补充一下，react中的state并不是事实更新的。（此处有链接后期添加）
+
 **Redux**
 
 Redux官方文档<a href="http://rackt.org/redux/">传送门</a>，还有中文版，请自行查找。
