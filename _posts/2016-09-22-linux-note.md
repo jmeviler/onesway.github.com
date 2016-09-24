@@ -30,7 +30,9 @@ description: note about install node in linux.
     如果验证成功，出现以下提示
 
 >PTY allocation request failed on channel 0
+
 >Hi jmeviler! You've successfully authenticated, but GitHub does not provide shell access.
+
 >Connection to github.com closed.
 
 ---
@@ -40,7 +42,7 @@ description: note about install node in linux.
 
 * 然后打开 ~/.bashrc ,  ~/.profile , or  ~/.zshrc这三个文件，在其中添加：
 
-`source ~/.nvm/nvm.sh`
+    `source ~/.nvm/nvm.sh`
 
 * `nvm install v5.3.0`
 

@@ -7,7 +7,6 @@ About:
 <span style="line-height: 1.5;">点击<a href="http://blog.onesway.xyz/">这里</a>返回首页.</span>
 </p>
 Contect：<br/>
-&nbsp;&nbsp;&nbsp;Name:Ben<br/>
-&nbsp;&nbsp;&nbsp;Email:admin@onesway.xyz<br/>
-&nbsp;&nbsp;&nbsp;Gmail:www.onesway@gmail.com<br/>
-&nbsp;&nbsp;&nbsp;WeChat:oneseviler<br/>
+&nbsp;&nbsp;&nbsp;Name: Ben Li<br/>
+&nbsp;&nbsp;&nbsp;Email: admin@onesway.xyz<br/>
+&nbsp;&nbsp;&nbsp;Gmail: www.onesway@gmail.com<br/>

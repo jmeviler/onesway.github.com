@@ -12,10 +12,10 @@ About:
 </p>
 <b>Contect:</b><br/>
 <blockquote>
-&nbsp;&nbsp;&nbsp;<b>Name:</b>Ben Li<br/>
-&nbsp;&nbsp;&nbsp;<b>Email:</b>admin@onesway.xyz<br/>
-&nbsp;&nbsp;&nbsp;<b>Gmail:</b>www.onesway@gmail.com<br/>
-&nbsp;&nbsp;&nbsp;<b>WeChat:</b>oneseviler<br/>
+&nbsp;&nbsp;&nbsp;<b>Name: </b>Ben Li<br/>
+&nbsp;&nbsp;&nbsp;<b>Email: </b>admin@onesway.xyz<br/>
+&nbsp;&nbsp;&nbsp;<b>Gmail: </b>www.onesway@gmail.com<br/>
+
 </blockquote>
 <br/><br/><br/><br/><br/>
 Copyright &copy; 2015 by OnesWay. All Rights Reserved.
