@@ -29,20 +29,22 @@ description: note about install node in linux.
     `ssh git@github.com`
     如果验证成功，出现以下提示
 
-    PTY allocation request failed on channel 0
-    Hi jmeviler! You've successfully authenticated, but GitHub does not provide shell access.
-    Connection to github.com closed.
+>PTY allocation request failed on channel 0
+>Hi jmeviler! You've successfully authenticated, but GitHub does not provide shell access.
+>Connection to github.com closed.
 
-
+---
 **安装nvm**
 
 * git clone https://github.com/creationix/nvm.git ~/.nvm
 
 * 然后打开 ~/.bashrc ,  ~/.profile , or  ~/.zshrc这三个文件，在其中添加：
-    `source ~/.nvm/nvm.sh`
+
+`source ~/.nvm/nvm.sh`
 
 * `nvm install v5.3.0`
 
+---
 **配置淘宝镜像**
 
 * 打开.npmrc文件(在用户主目录下)加入以下配置信息：
