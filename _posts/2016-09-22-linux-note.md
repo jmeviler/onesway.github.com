@@ -29,11 +29,9 @@ description: note about install node in linux.
     `ssh git@github.com`
     如果验证成功，出现以下提示
 
->PTY allocation request failed on channel 0
-
->Hi jmeviler! You've successfully authenticated, but GitHub does not provide shell access.
-
->Connection to github.com closed.
+    >PTY allocation request failed on channel 0
+    >Hi jmeviler! You've successfully authenticated, but GitHub does not provide shell access.
+    >Connection to github.com closed.
 
 ---
 **安装nvm**
