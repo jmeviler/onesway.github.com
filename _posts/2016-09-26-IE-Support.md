@@ -28,6 +28,6 @@ description: Javascript Functions NOT supported by IE8, Placeholder not supporte
 
 **Placeholder**
 
-* jquery-html5-placeholder-shim: HTML5 Placeholder support for non compliant browsers using jQuery. [传送门](https://github.com/parndt/jquery-html5-placeholder-shim)
+* `jquery-html5-placeholder-shim`: HTML5 Placeholder support for non compliant browsers using jQuery. [传送门](https://github.com/parndt/jquery-html5-placeholder-shim)
 
 >PS: 不支持国际化（可使用改变label的value实现）. 可能会出现错位，尝试修改`top: ot.top - op.top`.
