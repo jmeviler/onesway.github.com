@@ -41,3 +41,7 @@ description: Problems encountered in using Element UI development.
       ```
 
         解决方案： 设置 `el-button`的`native-type="submit"`
+
+    3. Form 表单验证, `el-select` 中 `option` 绑定值为 `number` 时, 验证始终失败！[demo](http://jsbin.com/ciravejuye/edit?html,output)
+
+    4. Form 表单验证, rules中type为 `number` 时， 只要开头为数字, 验证即可通过。。出错方式见[官方demo](https://jsfiddle.net/api/post/library/pure/)
