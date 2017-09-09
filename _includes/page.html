@@ -1,5 +1,11 @@
 <div class="page-header">
-  <h1><img src="/assets/ico/{{ site.logo_file }}" width="75" />{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
+  <h1>
+    <img class="header-logo" src="/assets/ico/{{ site.logo_file }}" width="75" />
+    {{ page.title }}
+    {% if page.tagline %}
+      <small>{{ page.tagline }}</small>
+    {% endif %}
+  </h1>
 </div>
 
 {{ content }}

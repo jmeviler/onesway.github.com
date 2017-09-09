@@ -4,6 +4,7 @@ body{
 }
 
 .sidebar {
+	width: 21%;
 	position: fixed;
 	top: 0px;
 	padding-top: 10%;
@@ -82,8 +83,12 @@ article .share .gplus:hover {
 
 .page-header {
 	color: #e74c3c;
-    padding-left: 2%;
+	padding-left: 2%;
 	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
+}
+
+.header-logo {
+	margin-right: 20px;
 }
 
 article{
@@ -112,22 +117,6 @@ article img { max-width: 100%; }
 h1,h2,h3,h4,h5,h6 { font-family: 'Ubuntu', sans-serif; color: #000;}
 h1 a,h2 a,h3 a,h4 a{ color: #333333; }
 
-/*article.home h1,
-article.home h2,
-article.home h3,
-article.home h4,
-article.home h5,
-article.home h6 {
-	font-family: 'Ubuntu', sans-serif;
-	color: #f2756a;
-}
-
-article.home h1 a,
-article.home h2 a,
-article.home h3 a,
-article.home h4 a {
-	color: #f2756a;
-}*/
 article.home h1 a:hover,
 article.home h2 a:hover,
 article.home h3 a:hover,
@@ -136,8 +125,8 @@ article.home h4 a:hover {
 }
 
 .author .author-image {
-  float: left;
-  margin-right: 20px;
+	float: left;
+	margin-right: 20px;
 }
 
 footer {
@@ -147,41 +136,73 @@ footer {
 
 /* nav-vertical-tabs component */
 .nav-tabs-vertical {
-    border-right: 1px solid #ddd;
+	border-right: 1px solid #ddd;
 }
 
 .nav-tabs-vertical li {
-    margin-right: -1px;
+	margin-right: -1px;
 }
 
 .nav-tabs-vertical>li.active>a, .nav-tabs-vertical>li.active>a:hover, .nav-tabs-vertical>li.active>a:focus {
-    color: #555;
-    cursor: default;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-right-color: transparent;
+	color: #555;
+	cursor: default;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-right-color: transparent;
 }
 
 .nav-tabs-vertical>li>a {
-    line-height: 1.428571429;
-    border: 1px solid transparent;
-    border-radius: 4px 0 0 4px;
+	line-height: 1.428571429;
+	border: 1px solid transparent;
+	border-radius: 4px 0 0 4px;
 }
 
 .badge { background: #F2756A; }
 
 #nav-menu{
-    position: fixed;
-    top: 45px;
-    right: 45px;
-    z-index: 2000;
+	position: fixed;
+	top: 45px;
+	right: 45px;
+	z-index: 2000;
 }
 #nav-menu .dropdown-menu {
-    left: inherit;
-    right: 0px;
+	left: inherit;
+	right: 0px;
 }
 
 ul.dropdown-menu>li>a>i.fa {
-    width: 1.3em;
+	width: 1.3em;
 }
 
+.about-detail {
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.about-me {
+	width: 100%;
+}
+
+.left-wrap {
+	width: 320px;
+	display: inline-block;
+}
+
+.right-wrap {
+	width: calc(100% - 353px);
+	margin-top: 24px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.contect-me {
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.contect-tips {
+	min-width: 70px;
+	display: inline-block;
+	text-align: right;
+	margin-right: 10px;
+}
