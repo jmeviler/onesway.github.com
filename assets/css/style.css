@@ -181,6 +181,8 @@ ul.dropdown-menu>li>a>i.fa {
 
 .about-me {
 	width: 100%;
+	min-height: 57.5rem;
+	padding-top: 1.5%;
 }
 
 .left-wrap {
