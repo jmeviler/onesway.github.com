@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Mac OS X 下配置Oh My Zsh
-categories: [Tools]
-tags: [Tools]
+categories: [tools]
+tags: [tools]
 description: The setting of Oh My Zsh for OS X.
 ---
 
