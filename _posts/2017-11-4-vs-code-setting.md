@@ -15,21 +15,13 @@ description: VSCode's Custom Settings.
 ```json
 {
   "workbench.startupEditor": "newUntitledFile",
-  // 控制字体系列。
   "editor.fontFamily": "Source Code Pro, Menlo, Monaco, 'Courier New', monospace",
-  // 以像素为单位控制字号。
   "editor.fontSize": 14,
-  // icon 主题定制
   "workbench.iconTheme": "vscode-icons",
-  // 控制编辑器是否应呈现空白字符
   "editor.renderWhitespace": "all",
-  // 启用后，将在保存文件时剪裁尾随空格。
   "files.trimTrailingWhitespace": true,
-  // 一个制表符等于的空格数
   "editor.tabSize": 2,
-  // 按 "Tab" 时插入空格。该设置在 `editor.detectIndentation` 启用时根据文件内容进行重写。
   "editor.insertSpaces": true,
-  // 垂直标尺
   "editor.rulers": [120],
   "files.associations": {
     "*.vue": "vue"
@@ -71,22 +63,22 @@ description: VSCode's Custom Settings.
 
 ```json
 [
-  {  // 小写转大写
+  {
     "key": "cmd+k cmd+u",
     "command": "editor.action.transformToUppercase",
     "when": "editorTextFocus"
   },
-  {  // 小写转大写
+  {
     "key": "cmd+k cmd+l",
     "command": "editor.action.transformToLowercase",
     "when": "editorTextFocus"
   },
-  { // 查找下一个
+  {
     "key": "ctrl+g",
     "command": "editor.action.nextMatchFindAction",
     "when": "editorFocus"
   },
-  {  // 查找行
+  {
     "key": "cmd+g",
     "command": "workbench.action.gotoLine"
   }
@@ -94,6 +86,8 @@ description: VSCode's Custom Settings.
 ```
 
 ### 常用插件
+
+[background](https://marketplace.visualstudio.com/items?itemName=shalldie.background)
 
 [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
@@ -112,3 +106,5 @@ description: VSCode's Custom Settings.
 [vscode-icons](https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons)
 
 [WakaTime](https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime)
+
+[indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)

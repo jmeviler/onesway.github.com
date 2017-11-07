@@ -12,7 +12,7 @@ description: Problems encountered in using Element UI development.
 
   1. Form内包含一个`input`时候，按`Enter`页面会刷新，并在url末尾添加一个`?`
 
-  ```js
+  ```html
   <el-form label-width="80px" :model="form">
     <el-form-item label="名称">
       <el-input v-model="form.name"></el-input>
@@ -28,19 +28,19 @@ description: Problems encountered in using Element UI development.
 
   2. Form 内存在一个以上的 `input` 时，无法使用`Enter`提交表单
 
-    ```js
-    <el-form label-width="80px" :model="form">
-      <el-form-item label="名称">
-        <el-input v-model="form.name"></el-input>
-      </el-form-item>
-      <el-form-item label="类型">
-        <el-input v-model="form.type"></el-input>
-      </el-form-item>
-      <el-form-item>
-        <el-button @click="onSubmit">Submit</el-button>
-      </el-form-item>
-    </el-form>
-    ```
+  ```html
+  <el-form label-width="80px" :model="form">
+    <el-form-item label="名称">
+      <el-input v-model="form.name"></el-input>
+    </el-form-item>
+    <el-form-item label="类型">
+      <el-input v-model="form.type"></el-input>
+    </el-form-item>
+    <el-form-item>
+      <el-button @click="onSubmit">Submit</el-button>
+    </el-form-item>
+  </el-form>
+  ```
 
       解决方案： 设置 `el-button`的`native-type="submit"`
 
