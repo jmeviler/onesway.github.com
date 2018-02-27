@@ -11,7 +11,7 @@ description: Install Charles on Mac.
 ## Install Charles
 
   ``` bash
-   brew cask install charles
+    brew cask install charles
   ```
 
   Or
@@ -68,6 +68,6 @@ description: Install Charles on Mac.
   即可抓取 iPhone `http/https` 请求
 
   > **PS**:
-  > iOS 10.3下 Charles 抓包ssl证书信任问题
+  > iOS 10.3(iOS11.2.6)下 Charles 抓包ssl证书信任问题
   > 设置->通用->关于本机->证书信任设置
   > 找到charles proxy custom root certificate然后信任该证书即可
