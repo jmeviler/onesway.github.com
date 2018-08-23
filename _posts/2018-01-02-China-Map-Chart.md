@@ -8,6 +8,6 @@ description: China Map with AntV and Echart.
 
 ### AntV G2
 
-[Demo](http://jsbin.com/tawuboyefu/edit?html,output)
+[Demo](https://jsbin.com/tawuboyefu/edit?html,output)
 
-<iframe src="http://output.jsbin.com/tawuboyefu" width="700px" height="500px" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://output.jsbin.com/tawuboyefu" width="700px" height="500px" frameborder="0" scrolling="no"></iframe>
