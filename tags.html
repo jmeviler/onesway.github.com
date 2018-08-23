@@ -16,10 +16,10 @@ group: navigation
       <li>
           <a href="#{{ this_word | replace:' ','-' }}-ref" data-toggle="tab">
             {{ this_word }}<span class="badge pull-right">{{ site.tags[this_word].size }}</span>
-         </a>
+          </a>
       </li>
-   {% endunless %}{% endfor %}
-   </ul>
+    {% endunless %}{% endfor %}
+    </ul>
 </div>
 <!-- Tab panes -->
 <div class="tab-content col-sm-9 col-xs-6">
