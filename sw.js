@@ -1,6 +1,6 @@
 'use strict';
 
-const version = 'v20160440';
+const version = 'v20160443';
 const __DEVELOPMENT__ = false;
 const __DEBUG__ = false;
 const offlineResources = [
@@ -9,7 +9,7 @@ const offlineResources = [
 ];
 
 const ignoreFetch = [
-  /http?:\/\/7vikht.com1.z0.glb.clouddn.com\//
+  /https?:\/\/p.upyun.com\//,
 ];
 
 
@@ -124,12 +124,12 @@ function removeOldCache() {
     .then((keys) => {
       return Promise.all( // We return a promise that settles when all outdated caches are deleted.
         keys
-         .filter((key) => {
-           return !key.startsWith(version); // Filter by keys that don't start with the latest version prefix.
-         })
-         .map((key) => {
-           return caches.delete(key); // Return a promise that's fulfilled when each outdated cache is deleted.
-         })
+          .filter((key) => {
+            return !key.startsWith(version); // Filter by keys that don't start with the latest version prefix.
+          })
+          .map((key) => {
+            return caches.delete(key); // Return a promise that's fulfilled when each outdated cache is deleted.
+          })
       );
     })
     .then(() => {
