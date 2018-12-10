@@ -1,6 +1,6 @@
 ---
 layout: post
-title: JS Funtions
+title: Throttle and Debounce
 categories: [Note]
 tags: [Note]
 description: You have to know this.
@@ -23,13 +23,13 @@ description: You have to know this.
 > 其原理是通过闭包保存一个标记来保存 `setTimeout` 返回的值，每当用户触发相应的event时, 将前一个setTimeout `clear` 掉, 后又创建一个新的 `setTimeout`, 这样就能保证用户触发的事件是在 `interval` 间隔内.
 
 ```js
-  function debounce(fn, interval = 300) {
-      let timeout = null;
-      return function () {
-          clearTimeout(timeout);
-          timeout = setTimeout(() => {
-              fn.apply(this, arguments);
-          }, interval);
-      };
-  }
+    function debounce(fn, interval = 300) {
+        let timeout = null;
+        return function () {
+            clearTimeout(timeout);
+            timeout = setTimeout(() => {
+                fn.apply(this, arguments);
+            }, interval);
+        };
+    }
 ```
