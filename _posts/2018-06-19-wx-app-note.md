@@ -20,4 +20,8 @@ description: mini program bugs and tips.
 
  * 开放能力 `open-data`, 样式变更 `display: block; overflow: hidden;`
 
+ * 推送模版消息时, 配置路径的前不能带 `/`, 否则, 在 Android 上路径错误, iOS 上正常
+
  * `formId`, 最丧心病狂的[做法](https://developers.weixin.qq.com/community/develop/doc/0000e29a094a004fa7b75327c51c00)
+
+ * 运用好 `WXS`, 据说 `iOS` 上比 `js` 快 2～20倍. [传送🚪](https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxs/)
