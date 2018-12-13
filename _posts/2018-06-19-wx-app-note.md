@@ -14,7 +14,7 @@ description: mini program bugs and tips.
 
  * 在使用微信自定义分析数据上报接口 `wx.reportAnalytics` 时, 避免在同一方法连续多次上报, 第二个可能会丢
 
- * 小程序内 退出 小程序 `navigator`
+ * 小程序内 退出 小程序. `navigator`
 
  * 跑马灯 `swiper` 在某些版本(`eg. v2.3.0+`) 配合开发者工具, 可使内存飙升
 
@@ -25,3 +25,7 @@ description: mini program bugs and tips.
  * `formId`, 最丧心病狂的[做法](https://developers.weixin.qq.com/community/develop/doc/0000e29a094a004fa7b75327c51c00)
 
  * 运用好 `WXS`, 据说 `iOS` 上比 `js` 快 2～20倍. [传送🚪](https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxs/)
+
+ * 不弹窗提示, 获取用户地理位置信息.
+
+ * `云开发` 隐私敏感信息可配置在 `环境变量` 中, 使用 `process.env.xxx` 取值
