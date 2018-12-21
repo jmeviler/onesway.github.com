@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Vue项目中添加scss-lint.
-categories: [tools]
-tags: [tools]
+categories: [tools, FE]
+tags: [tools, FE]
 description: use scss-lint and pre-commit in vue project.
 ---
 

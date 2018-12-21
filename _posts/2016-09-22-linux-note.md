@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Install nvm and node.
-categories: [nodejs, Note]
-tags: [nodejs, Note]
+categories: [tools, Note]
+tags: [tools, Note]
 description: note about install node in linux.
 ---
 

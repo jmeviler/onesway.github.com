@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Mini Program Notes
-categories: [Note]
-tags: [Note]
+categories: [Note, WxApp]
+tags: [Note, WxApp]
 description: mini program bugs and tips.
 ---
 

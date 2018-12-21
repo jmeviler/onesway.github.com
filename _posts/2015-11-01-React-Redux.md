@@ -1,8 +1,8 @@
 ---
 layout: post
 title: React And Reudx
-categories: [Javascript]
-tags: [Javascript]
+categories: [Javascript, FE]
+tags: [Javascript, FE]
 description: React and Redux.
 ---
 

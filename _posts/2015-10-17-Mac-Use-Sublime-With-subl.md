@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Mac OS X 命令行下使用subl
-categories: [Sublime]
-tags: [Sublime]
+categories: [Note, tools]
+tags: [Note, tools]
 description: Use Sublime Text3 with subl in OS X.
 ---
 

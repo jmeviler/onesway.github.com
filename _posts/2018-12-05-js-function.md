@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Throttle and Debounce
-categories: [Note]
-tags: [Note]
+categories: [Note, Javascript]
+tags: [Note, Javascript]
 description: You have to know this.
 ---
 

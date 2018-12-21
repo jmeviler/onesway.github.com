@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Mac OS X 安装PHP继承环境Xampp
-categories: [tools]
-tags: [Xampp,php]
+categories: [tools, Unix]
+tags: [tools, Unix]
 description: Install Xampp for OS X.
 ---
 

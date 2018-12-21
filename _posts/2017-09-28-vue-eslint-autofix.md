@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Vue中ESLint Autofix
-categories: [tools]
-tags: [tools]
+categories: [tools, FE]
+tags: [tools, FE]
 description: autofix in .vue files
 ---
 
