@@ -1,12 +1,13 @@
 ---
 layout: post
-title: 前端常用的那些工具.
+title: 前端常用的那些工具
 categories: [tools, FE]
 tags: [tools, FE]
-description: 前端常用到那些 N 开头的工具.
+description: 前端常用到那些 N 开头的工具.
 ---
 
 ### NVM
+
 > NVM: Node Version Manager.
 
 * 就是 `Node` 的版本管理工具, 让你在同一台机器上 `安装` 和 `切换` 不同版本 Node 的工具
@@ -23,6 +24,7 @@ description: 前端常用到那些 N 开头的工具.
 
 
 ### NODE
+
 > Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.
 
 * [官网](https://nodejs.org/zh-cn)
@@ -37,6 +39,7 @@ description: 前端常用到那些 N 开头的工具.
   - 使用 `nvm` 进行 `Node` 的版本控制
 
 ### NPM
+
 > npm(1) -- a JavaScript package manager
 
 * `npm` 是 `JavaScript` 世界的包管理工具, 并且是 `Node.js` 平台的默认包管理工具。
@@ -54,6 +57,7 @@ description: 前端常用到那些 N 开头的工具.
   - 更新到指定版本  `npm -g install npm@5.6.0` (`@` 后为 `指定版本号`)
 
 ### NRM
+
 > NPM registry manager
 
 * `nrm` can help you easy and fast switch between different npm registries,
