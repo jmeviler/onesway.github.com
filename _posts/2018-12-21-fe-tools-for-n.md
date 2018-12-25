@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 前端常用的那些工具
+title: 前端常用的那些工具.
 categories: [tools, FE]
 tags: [tools, FE]
 description: 前端常用到那些 N 开头的工具.
