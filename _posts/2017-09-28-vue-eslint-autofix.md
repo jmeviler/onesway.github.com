@@ -58,5 +58,25 @@ description: autofix in .vue files
       }
     ```
 
+4. VS Code 中 autofix
+
+  > 在 VS Code 安装 [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)、 [vuetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
+
+  > 文件> 首选项 > 设置 > 用户设置 配置以下内容:
+
+  ```json
+  {
+    "eslint.autoFixOnSave": true,
+    "vetur.format.defaultFormatter.html": "js-beautify-html",
+    "vetur.format.defaultFormatter.js": "vscode-typescript",
+    "eslint.validate": [
+      "javascript",
+      {
+        "language": "vue",
+        "autoFix": true
+      },
+    ]
+  }
+  ```
 
   Enjoy it!
