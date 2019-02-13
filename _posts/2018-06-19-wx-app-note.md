@@ -29,3 +29,11 @@ description: mini program bugs and tips.
  * 不弹窗提示, 获取用户地理位置信息.
 
  * `云开发` 隐私敏感信息可配置在 `环境变量` 中, 使用 `process.env.xxx` 取值
+
+ * 微信 `7.0` 起小程序内嵌 `web-view` 的 `UA` 带上了 `miniprogram` 的标识
+
+ * 小程序跳转小程序 `(突破限制)`
+
+    - 可以使用 `小程序码` (个人的赞赏码) 长按识别可跳转
+
+    - 小程序内关联微信公众号文章, [文章内跳转小程序](https://developers.weixin.qq.com/community/develop/doc/000e86d76043a080e208a79ec51400)
