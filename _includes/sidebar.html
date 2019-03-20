@@ -30,6 +30,13 @@
       </a>
     </li>
     {% endif %}
+    {% if site.author.about %}
+    <li>
+      <a class="btn btn-default btn-sm" href="{{ site.BASE_PATH}}/{{ site.author.about }}">
+        <i class="fa fa-user fa-lg"></i>
+      </a>
+    </li>
+    {% endif %}
     {% if site.author.email %}
     <li>
       <a class="btn btn-default btn-sm" href="mailto:{{ site.author.email }}">
@@ -53,11 +60,6 @@
       </a>
     </li>
     {% endif %}
-    <li>
-      <a class="btn btn-default btn-sm" href="{{ site.BASE_PATH }}/{{ site.rss_path }}">
-        <i class="fa fa-user fa-lg"></i>
-      </a>
-    </li>
   </ul>
 </div>
 <! -- sidebar.html end -->
