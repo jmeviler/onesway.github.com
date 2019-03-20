@@ -5,6 +5,7 @@ body{
 
 .sidebar {
 	width: 25%;
+	height: 100%;
 	position: fixed;
 	top: 0px;
 	background-color: #2c3e50;
