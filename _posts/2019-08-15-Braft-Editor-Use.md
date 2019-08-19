@@ -35,14 +35,18 @@ description: How to user Braft Editor.
   [[项目官网](https://braft.margox.cn/demos/basic)]提供了诸多场景下的使用范例，请前往查看。
 
 ### Notice
- - [编辑器作者特别提醒](https://www.yuque.com/braft-editor/be/lzwpnr#1bbbb204)
- - 使用 [表情包扩展模块](https://github.com/margox/braft-extensions#%E8%A1%A8%E6%83%85%E5%8C%85%E6%89%A9%E5%B1%95%E6%A8%A1%E5%9D%97) 时, 若使用了 `webpack的dll插件`, 需要将 `react`, `react-dom`, `react-dom/server` 三者加进 `dll名单` 中.
- - 自定义 `entity`, [官网demo](https://braft.margox.cn/demos/entity)
+  - [编辑器作者特别提醒](https://www.yuque.com/braft-editor/be/lzwpnr#1bbbb204)
+  - 使用 [表情包扩展模块](https://github.com/margox/braft-extensions#%E8%A1%A8%E6%83%85%E5%8C%85%E6%89%A9%E5%B1%95%E6%A8%A1%E5%9D%97) 时, 若使用了 `webpack的dll插件`, 需要将 `react`, `react-dom`, `react-dom/server` 三者加进 `dll名单` 中.
+  - 自定义 `entity`, [官网demo](https://braft.margox.cn/demos/entity)
 
-    - 在非选中文本添加实体时, 使用以下代码
+    - 在 `非选中文本` 添加实体时, 使用以下代码:
     ```js
       const entity = { type: 'entity Name', mutability: 'IMMUTABLE', data: { value } }
       this.setState({
         editorState: ContentUtils.insertText(editorState, text, inlineStyle, entity), // 插入entity
       });
     ```
+
+  - 加载扩展模块, BraftEditor.use可以同时传入单个或多个扩展
+
+    - BraftEditor.use(ext) 或者 BraftEditor.use([ext1, ext2, [ext3, ext4]])都是可以的
